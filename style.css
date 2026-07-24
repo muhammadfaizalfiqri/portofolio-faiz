@@ -785,6 +785,100 @@ font-size:15px;
 
 }
 
+@media (max-width:768px){
+
+.achievement{
+
+    padding:80px 8%;
+
+}
+
+.achievement-card{
+
+    flex-direction:column;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:30px 25px;
+
+    gap:25px;
+
+}
+
+.achievement-icon{
+
+    min-width:75px;
+
+    width:75px;
+
+    height:75px;
+
+}
+
+.achievement-icon i{
+
+    font-size:30px;
+
+}
+
+.badge{
+
+    font-size:13px;
+
+}
+
+.achievement-body h3{
+
+    font-size:28px;
+
+    line-height:38px;
+
+}
+
+.achievement-body h4{
+
+    font-size:20px;
+
+    line-height:30px;
+
+}
+
+.achievement-body p{
+
+    font-size:16px;
+
+    line-height:28px;
+
+}
+
+.achievement-info{
+
+    grid-template-columns:1fr;
+
+    gap:15px;
+
+}
+
+.achievement-info div{
+
+    padding:18px;
+
+}
+
+.journal-btn{
+
+    display:block;
+
+    width:100%;
+
+    text-align:center;
+
+}
+
+}
+
 /*================ PROJECT =================*/
 
 .project{
@@ -963,6 +1057,94 @@ font-size:15px;
 
 }
 
+@media (max-width:768px){
+
+.project{
+
+    padding:80px 8%;
+
+}
+
+.project-card{
+
+    flex-direction:column;
+
+    padding:25px;
+
+    gap:30px;
+
+}
+
+.project-image{
+
+    width:100%;
+
+}
+
+.project-image img{
+
+    width:100%;
+
+    height:auto;
+
+}
+
+.project-content{
+
+    width:100%;
+
+    padding:0;
+
+    text-align:center;
+
+}
+
+.project-content h3{
+
+    font-size:28px;
+
+    line-height:38px;
+
+}
+
+.project-content p{
+
+    font-size:16px;
+
+    line-height:28px;
+
+}
+
+.project-tech{
+
+    justify-content:center;
+
+}
+
+.project-tech span{
+
+    font-size:14px;
+
+    padding:10px 15px;
+
+}
+
+.project-button{
+
+    flex-direction:column;
+
+}
+
+.project-button a{
+
+    width:100%;
+
+    text-align:center;
+
+}
+
+}
+
 /*================ CONTACT =================*/
 
 .contact{
@@ -1104,6 +1286,80 @@ font-size:15px;
 nav ul li a.active{
 
     color:#39bdf8;
+
+}
+
+@media (max-width:768px){
+
+.contact{
+
+    padding:80px 8%;
+
+}
+
+.contact-container{
+
+    grid-template-columns:1fr;
+
+    gap:40px;
+
+}
+
+.contact-left{
+
+    text-align:center;
+
+}
+
+.contact-left h3{
+
+    font-size:34px;
+
+    line-height:45px;
+
+}
+
+.contact-left p{
+
+    font-size:16px;
+
+    line-height:30px;
+
+}
+
+.contact-right{
+
+    width:100%;
+
+}
+
+.contact-card{
+
+    padding:18px;
+
+}
+
+.contact-card i{
+
+    width:55px;
+
+    height:55px;
+
+    font-size:22px;
+
+}
+
+.contact-card h4{
+
+    font-size:18px;
+
+}
+
+.contact-card span{
+
+    font-size:14px;
+
+}
 
 }
 
